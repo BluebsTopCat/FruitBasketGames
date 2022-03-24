@@ -84,8 +84,6 @@ const taglines: Array<string> = [
     "I am wanted by the federal bureau of investigation for my actions in the 2008 financial crisis.",
     "Please don't refresh the tagline or I'll stop existing",
     "Makers of such games you don't know as:",
-
-
 ];
 
 (document.getElementById("tagline") as HTMLParagraphElement).innerHTML = taglines[Math.floor(Math.random() * taglines.length)];

@@ -2,13 +2,12 @@
 
 .game-display-item {
     width: 100%;
-    
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: start;
     margin: 4px;
-    margin-top: 32px;
+    margin-top: 6px;
 }
 
 .game-display-item img {
