@@ -3,7 +3,7 @@ import { LinkGrid, LinkGridItem } from "./LinkGrid/LinkGrid";
 
 const contactLinkGridItems: Array<LinkGridItem> = [
     {
-        imageURL: "res/art/blueberry.webp",
+        imageURL: "res/art/twitter.png",
         imageAlt: "Twitter",
         link: "https://twitter.com/BluebsCat"
     },
@@ -75,13 +75,16 @@ const taglines: Array<string> = [
     "I'm here to fruit basket and basket games, and I'm all out of fruit.",
     "We have to go fruit, marty! fruit to the basket!",
     "No, I AM your fruit basket!",
-    "not to be confused with Fruits Basket!",
-    "not to be confused with Fruit on the Loom!",
+    "Not to be confused with Fruits Basket!",
+    "Not to be confused with Fruit on the Loom!",
     "These games are your jam!",
     "Featuring dante from the devil may cry series!",
     "127.0.0.1",
     "<a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>Click Me :)</a>",
-    "I am wanted by the federal bureau of investigation for my actions in the 2008 financial crisis."
+    "I am wanted by the federal bureau of investigation for my actions in the 2008 financial crisis.",
+    "Please don't refresh the tagline or I'll stop existing",
+    "Makers of such games you don't know as:",
+
 
 ];
 
