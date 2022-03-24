@@ -31,7 +31,7 @@ const coolPeopleLinkGridItems: Array<LinkGridItem> = [
         link: "https://www.storklabs.io/"
     },
     {
-        imageURL: "res/art/knowl.jpg",
+        imageURL: "res/art/Knowl.jpg",
         imageAlt: "Knight Owl Hoots",
         link: "https://twitter.com/KnightOwlHoots"
     },
