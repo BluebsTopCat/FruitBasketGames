@@ -1,0 +1,60 @@
+
+
+.game-display-item {
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: start;
+    margin: 4px;
+    margin-top: 32px;
+}
+
+.game-display-item img {
+    width: 256px;
+    height: 256px;
+}
+
+.game-display-item-description {
+    display: block;
+    text-align: left;
+    
+    margin-left: 24px;
+}
+
+.game-display-item-description h3 {
+    margin: 0;
+    padding: 0;
+    
+    font-size: 36px;
+}
+
+.game-display-item-description h4 {
+    margin: 0;
+    padding: 0;
+    
+    font-size: 22px;
+}
+
+.game-display-item-description p {
+    margin: 0;
+    padding: 0;
+    
+    font-size: 18px;
+}
+
+.game-display-item-description a {
+    margin: 0;
+    padding: 0;
+    
+    font-size: 18px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .game-display-item img {
+        width: 192px;
+        height: 192px;
+    }
+}
