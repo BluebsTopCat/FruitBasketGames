@@ -3,8 +3,8 @@ import { LinkGrid, LinkGridItem } from "./LinkGrid/LinkGrid";
 
 const contactLinkGridItems: Array<LinkGridItem> = [
     {
-        imageURL: "res/art/twitter.png",
-        imageAlt: "Twitter",
+        imageURL: "res/art/twitter.webp",
+        imageAlt: "twitter",
         link: "https://twitter.com/BluebsCat"
     },
     {
