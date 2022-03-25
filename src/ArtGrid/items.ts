@@ -40,7 +40,7 @@ export const items: Array<ArtGridItem> = [
     },
     {
         type: ItemType.Image,
-        title: "Map of Corpia",
+        title: "Map of Cavdra",
         description: "<b>2d Digital Media</b>\nMarch 2022\n<i>Independent Work</i>\n\nThe map of a mysterious island in the pacific.",
         url: "res/art/map.webp"
     },
