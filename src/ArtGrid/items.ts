@@ -39,6 +39,12 @@ export const items: Array<ArtGridItem> = [
         url: "res/art/repairs.webp"
     },
     {
+        type: ItemType.Image,
+        title: "Map of Corpia",
+        description: "<b>2d Digital Media</b>\nMarch 2022\n<i>Independent Work</i>\n\nThe map of a mysterious island in the pacific.",
+        url: "res/art/map.webp"
+    },
+    {
         type: ItemType.Video,
         title: "Short Fuse",
         description: "<b>3d Digital Media</b>\nSeptember 2021\n<i>Independent Work</i>\n\nAn explosive-tempered character. Original sketch by Miles R.",
@@ -57,17 +63,16 @@ export const items: Array<ArtGridItem> = [
         url: "res/art/swordgif.webm"
     },
     {
+        type: ItemType.Video,
+        title: "Geometry Node Grids",
+        description: "<b>3d Digital Media</b>\nMarch 2022\n<i>Independent Work</i>\n\nExperimenting with geometry nodes in blender, this works as a grid setup for DND campaigns.",
+        url: "res/art/hexgrid.webm"
+    },
+    {
         type: ItemType.Image,
         title: "Bar and Grill",
         description: "<b>3d Digital Media</b>\nMay 2019\n<i>Independent Work</i>\n\nA neon-futuristic bilboard in a city of grime",
         url: "res/art/jones.webp"
-    },
-    {
-        type: ItemType.Image,
-        title: "Persona 5 Widget",
-        description: "<b>Mobile Application</b>\nJuly 2020\n<i>Independent Work</i>\n\nA widget app for android phones, which simulated the UI of Persona 5. At the app's highest point, it had 10k current users, and 15k total downloads.",
-        link: "https://play.google.com/store/apps/details?id=blueberry.is.cool",
-        url: "res/art/p5widget.webp"
     },
     {
         type: ItemType.Image,
@@ -84,6 +89,12 @@ export const items: Array<ArtGridItem> = [
     },
     {
         type: ItemType.Image,
+        title: "Pine Tree",
+        description: "<b>2d Digital Media</b>\nDecember 2021\n<i>Independent Work</i>\n\ A pixel art drawing of a tree on a cliff.",
+        url: "res/art/tree.webp"
+    },
+    {
+        type: ItemType.Image,
         title: "Univerra",
         description: "<b>2d Digital Media</b>\nSeptember 2021\n<i>StorkLabs</i>\n\nI did a full overhaul of the artwork of Univerra. A tactical Civ-like centered around 30 minute games on your phone.",
         link: "https://play.google.com/store/apps/details?id=io.storklabs.Univerra",
@@ -97,10 +108,22 @@ export const items: Array<ArtGridItem> = [
         url: "res/art/fireplace.webm"
     },
     {
-        type: ItemType.Image,
+        type: ItemType.Video,
         title: "Fruit Basket Games Logo",
         description: "<b>2d Digital Media</b>\nJanuary 2021\n<i>Fruit Basket Games</i>\n\nFBG is what I publish most of my solo work under.",
-        url: "res/art/fruitbasket.webp"
+        url: "res/art/fbloop.webm"
+    },
+    {
+        type: ItemType.Image,
+        title: "Inktober Sheet",
+        description: "<b>2d Digital Media</b>\nOctober 2021\n<i>Independent Work</i>\n\nA collection of artwork made for 2021's Inktober challenge, in which artists made a drawing to match a prompt for each day of October.",
+        url: "res/art/9daysheet.webp"
+    },
+    {
+        type: ItemType.Video,
+        title: "Found Footage",
+        description: "<b>3d Digital Media</b>\nMarch 2022\n<i>Independent Work</i>\n\nA spooky video of a moving obelisk, made in blender.",
+        url: "res/art/wtf.webm"
     },
     {
         type: ItemType.Image,
