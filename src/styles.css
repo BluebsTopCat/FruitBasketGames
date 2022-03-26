@@ -27,8 +27,23 @@ p {
     transition-property: background-color box-shadow;
 }
 
+.soundcloud{
+    font-size: 10px;
+     color: #cccccc;
+     word-break: normal;
+     overflow: hidden;
+     white-space: nowrap;
+     text-overflow: ellipsis; 
+     font-weight: 100;
+}
+
 .button-red {
     background-color: #ff4747;
+    color: #ffffff;
+}
+
+.button-blue {
+    background-color: #42A7F6;
     color: #ffffff;
 }
 
