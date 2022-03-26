@@ -42,13 +42,18 @@ p {
     color: #ffffff;
 }
 
+.button-red:hover {
+    background-color: #ff6161;
+}
+
 .button-blue {
-    background-color: #42A7F6;
+    background-color: #7A82D1;
     color: #ffffff;
 }
 
-.button-red:hover {
-    background-color: #ff6161;
+.button-blue:hover {
+    background-color: #5A82D1;
+    color: #ffffff;
 }
 
 .button-orange {
