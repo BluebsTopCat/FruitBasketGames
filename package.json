@@ -8,8 +8,8 @@
     "copy-special": "cp -r src/res/special/ dist/res/",
     "prebuild-noclean": "npm run copy-art && npm run copy-special",
     "prebuild": "npm run clean && npm run prebuild-noclean",
-    "run": "npm run prebuild && parcel src/index.html src/games.html src/art.html",
-    "build-only": "parcel build src/index.html src/games.html src/art.html",
+    "run": "npm run prebuild && parcel src/index.html src/games.html src/art.html src/music.html",
+    "build-only": "parcel build src/index.html src/games.html src/art.html src/music.html",
     "build": "npm run prebuild && npm run build-only",
     "gen-cname": "echo fruitbasket.games > dist/CNAME",
     "deploy": "rm -rf dist && git clone https://github.com/BluebsTopCat/FruitBasketGames.git && cd FruitBasketGames && git checkout gh-pages && cd .. && mv FruitBasketGames dist && mkdir gitsave && mv dist/.git gitsave/ && rm -r dist/* && mv gitsave/.git dist/ && rm -d gitsave && cd dist && mkdir res && cd .. && npm run prebuild-noclean && npm run build-only && npm run gen-cname && cd dist && git add -A && git commit -m \"deploy\" && git push origin gh-pages"

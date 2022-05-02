@@ -1,4 +1,9 @@
 
+.game-display-item-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
 
 .game-display-item {
     width: auto;
@@ -8,10 +13,10 @@
     align-items: center;
     justify-content: start;
     margin: 4px;
-    margin-top: 6px;
     padding-right: 5px;
     
 }
+
 .hc {
     background-color: #CCC59F;
     color: #ffffff;
@@ -24,25 +29,30 @@
     background-color: #010101;
     color: #ffffff;
 }
-.p5w{
+
+.p5w {
     padding-left: 5px;
     background-color: #ff4747;
     color: #ffffff;
 }
+
 .uv {
     padding-left: 5px;
     background-color: #5167AA;
     color: #ffffff;
 }
-.smg{
+
+.smg {
     padding-left: 5px;
     background-color: #B740E0;
     color: #ffffff;
 }
+
 .ur {
     background-color: #42A7F6;
     color: #ffffff;
 }
+
 .game-display-item img {
     width: 256px;
     height: 256px;
