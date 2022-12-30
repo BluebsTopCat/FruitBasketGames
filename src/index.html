@@ -17,33 +17,40 @@
         <link rel="stylesheet" href="index.css">
         
         <script src="index.tsx" type="module" defer="defer"></script>
+        <script src="animbackground.tsx" type="module" defer="defer"></script>
     </head>
     <body>
-        <div class="fruitbasket-title">
-            <img class="fruitbasket-title-img" src="res/fruitbasket-cropped.png?as=webp" alt="Fruit Basket Games">
-            <span>
+        <video muted preload id="background">
+            <source src="res/Background.mp4" type="video/webm">
+          </video>
+          
+        <div class="fruitbasket-title" style="margin-top: 200;">
+            <img class="fruitbasket-title-img" src="res/fruitbasket.png?as=webp" alt="Fruit Basket Games">
+            <span style = "margin-bottom: 2500;">
                 <h1 class="fruitbasket-title-text" style="text-align: center;">Fruit Basket Games</h1>
                 <h2 id="tagline" style="text-align: center;"></h2>
             </span>
+       
         </div>
-        
+       
         <div class="container" style="margin-top: 32px;">
             <div class="fruitbasket-nav" >
                 <a class="button button-red" href="#">Home</a>
-                <a class="button button-orange" href="games.html">Games</a>
-                <a class="button button-green" href="art.html">Art</a>
-                <a class="button button-blue" href="music.html">Music</a>
+                <a class="button button-orange" href="games">Games</a>
+                <a class="button button-green" href="art">Art</a>
+                <a class="button button-blue" href="music">Music</a>
             </div>
             
             <div class="fruitbasket-block block-blue">
                 <h2>About</h2>
                 
                 <p>
-                    Fruit Basket Games is an indie game studio dedicated to making games that are inclusive, fun, and hopefully functional! Fruit Basket Games is run by Jane Parson: a Los Angeles resident, super cool trans person, and human who made the poor life choice of wanting to become a Game Developer. She composes, draws, models, sculpts, programs (reluctantly), publishes assorted pet projects under the Fruit Basket Games brand, and enjoys writing paragraphs about herself in the third person.
+                    Fruit Basket Games is an indie game studio dedicated to making games that are inclusive, fun, and hopefully functional! 
+                    The studio is run by Jane Parson, a transfemme artist and wannabe game dev. While mainly working with blender for 3d rendering, she also draws, composes, sculpts, programs, and writes paragraphs about herself in the third person.
                 </p>
                 <br>
                 <p>
-                    Want me for a project? Email me at Support@fruitbasket.games.
+                    Want me for a project? Email me at Support@fruitbasket.games. 
                 </p>
                 <br>
                 <p>

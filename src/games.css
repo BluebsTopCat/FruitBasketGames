@@ -7,12 +7,14 @@
 
 .game-display-item {
     width: auto;
+    height: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: start;
     margin: 4px;
+    margin-bottom: 200;
     padding-right: 5px;
     
 }
@@ -29,6 +31,10 @@
     background-color: #010101;
     color: #ffffff;
 }
+.vf {
+    background-color: #C0CFF8;
+    color: #12262D;
+}
 
 .p5w {
     padding-left: 5px;
@@ -41,6 +47,12 @@
     background-color: #5167AA;
     color: #ffffff;
 }
+.ld {
+    padding-left: 5px;
+    background-color: #D0183F;
+    color: #ffffff;
+}
+
 
 .smg {
     padding-left: 5px;

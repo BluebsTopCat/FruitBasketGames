@@ -15,6 +15,31 @@ export interface ArtGridItem {
 export const items: Array<ArtGridItem> = [
     {
         type: ItemType.Video,
+        title: "Starfarer",
+        description: "<b>3d Digital Media</b>\nJuly 2022\n<i>Independent Work</i>\n\nCharacter modelling and rigging practice, with an added cel shaded twist!",
+        url: "res/art/starfarer.webm"
+    },
+    {
+        type: ItemType.Image,
+        title: "Mage",
+        description: "<b>3d Digital Media</b>\nAugust 2022\n<i>Independent Work</i>\n\nA mysterious alchemist hones her craft, made in Blender",
+        url: "res/art/Render4.png"
+    },
+    {
+        type: ItemType.Video,
+        title: "Lupe",
+        description: "<b>3d Digital Media</b>\nOctober 2022\n<i>Independent Work</i>\n\nA 3d model of Lupe from the webcomic Four Leaf!",
+        url: "res/art/LupeFourLeaf.webm"
+    },
+    {
+        type: ItemType.Video,
+        title: "Freefalling",
+        description: "<b>3d Digital Media</b>\nSeptember 2022\n<i>Independent Work</i>\n\nFalling from the skyline.",
+        url: "res/art/Falling.mp4"
+    },
+
+    {
+        type: ItemType.Video,
         title: "Flying House",
         description: "<b>3d Digital Media</b>\nOctober 2020\n<i>Independent Work</i>\n\nAn attempt to recreate the aesthetic of Hayao Miyazaki in a different medium.",
         url: "res/art/flyinghouse.webm"
@@ -27,16 +52,52 @@ export const items: Array<ArtGridItem> = [
         url: "res/art/hookcat.webp"
     },
     {
+        type: ItemType.Image,
+        title: "The Last Library",
+        description: "<b>3d Digital Media</b>\nJuly 2022\n<i>ZERO</i>\n\nThe books, though faded, appear to be perfectly organized. Long abandoned, who keeps these halls clean?",
+        url: "res/art/library.webp"
+    },
+    {
+        type: ItemType.Video,
+        title: "Research In Progress",
+        description: "<b>3d Digital Media</b>\nDecember 2021\n<i>Fruit Basket Games</i>\n\nRESEARCH 9.67% COMPLETE...",
+        url: "res/art/Research.webm"
+    },
+    {
         type: ItemType.Video,
         title: "Mansion Night",
         description: "<b>3d Digital Media</b>\nAugust 2021\n<i>Transcendent Games</i>\n\nThis work shows a haunted mansion backlit by a stormy night. But who could lurk inside?",
         url: "res/art/mansionnight.webm"
     },
     {
+        type: ItemType.Video,
+        title: "Island Diorama",
+        description: "<b>3d Digital Media</b>\nMay 2022\n<i>Independent Work</i>\n\nAn island in the void",
+        url: "res/art/island.webm"
+    },
+    {
         type: ItemType.Image,
         title: "Repairs",
         description: "<b>3d Digital Media</b>\nSeptember 2021\n<i>Independent Work</i>\n\nA Cable-Repair robot walks over a rocky landscape.",
         url: "res/art/repairs.webp"
+    },
+    {
+        type: ItemType.Image,
+        title: "Science Fiction Fantasy Alliance",
+        description: "<b>2d Digital Media</b>\nApril 2022\n<i>SFFA</i>\n\n I designed and organized a group of members of reddit to place this design on https://reddit.com/r/place, an art experiment in which each user could place one pixel on a grid every 5 minutes. our work turned out to be one of the largest there was!",
+        url: "res/art/sticker.webp"
+    },
+    {
+        type: ItemType.Image,
+        title: "Basic Lands",
+        description: "<b>2d Digital Media</b>\nJune 2022\n<i>Independent Work</i>\n\nA set of custom cards designed to function in the card game 'Magic the Gathering'",
+        url: "res/art/mtglands.webp"
+    },
+    {
+        type: ItemType.Image,
+        title: "Flumph",
+        description: "<b>2d Digital Media</b>\nJune 2022\n<i>Independent Work</i>\n\nAnother custom art card, this time of 'Flumph', from Magic the Gathering",
+        url: "res/art/flumph.webp"
     },
     {
         type: ItemType.Image,
@@ -52,6 +113,12 @@ export const items: Array<ArtGridItem> = [
     },
     {
         type: ItemType.Image,
+        title: "So long, Geffen.",
+        description: "<b>2d Digital Media</b>\nJune 2022\n<i>Independent Work</i>\n\n My graduation cap for school.",
+        url: "res/art/schoolcap.webp"
+    },
+    {
+        type: ItemType.Image,
         title: "Mountains",
         description: "<b>3d Digital Media</b>\nSeptember 2020\n<i>Independent Work</i>\n\nThis piece shows snowy peaks in the distance.",
         url: "res/art/mountainfinal.webp"
@@ -61,6 +128,12 @@ export const items: Array<ArtGridItem> = [
         title: "The Keep",
         description: "<b>2d Digital Media</b>\nMarch 2021\n<i>Independent Work</i>\n\nAn animated crest of arms.",
         url: "res/art/swordgif.webm"
+    },
+    {
+        type: ItemType.Image,
+        title: "Propaganda Poster",
+        description: "<b>2d Digital Media</b>\nJanuary 2022\n<i>Independent Work</i>\n\nMade as a joke, this poster was put up to parody election denial by comparing it to a student council election. The poster replicates cold-war fear designs with a stark red white black design.",
+        url: "res/art/propaganda.webp"
     },
     {
         type: ItemType.Video,
@@ -205,33 +278,10 @@ export const items: Array<ArtGridItem> = [
         url: "res/art/potionseller.webm"
     },
     {
-        type: ItemType.Image,
-        title: "Witch Merchant 2",
-        description: "<b>2d Digital Media</b>\nJune 2021\n<i>Independent Work</i>\n\nA larger depiction of the witch merchant.",
-        url: "res/art/potionsellerfullbodyhat.webp"
-    },
-    {
-        type: ItemType.Image,
-        title: "Octii",
-        description: "<b>2d Digital Media</b>\nJanuary 2021\n<i>Innatical</i>\n\nOctii was meant to be the mascot of a chat-app that never happened",
-        url: "res/art/newoctii_happy.webp"
-    },
-    {
-        type: ItemType.Image,
-        title: "Crystals",
-        description: "<b>2d Digital Media</b>\nAugust 2021\n<i>Fruit Basket Games</i>\n\nA study on refractive surfaces with pixel art.",
-        url: "res/art/crystals.webp"
-    },
-    {
         type: ItemType.Video,
         title: "Windmile Isle",
         description: "<b>3d interactive Media</b>\nAugust 2021\n<i>Fruit Basket Games</i>\n\nA serene island in a vast ocean.",
         url: "res/art/windmill_isle.webm"
     },
-    {
-        type: ItemType.Video,
-        title: "Research In Progress",
-        description: "<b>3d Digital Media</b>\nDecember 2021\n<i>Fruit Basket Games</i>\n\nRESEARCH 9.67% COMPLETE...",
-        url: "res/art/Research.webm"
-    },
+   
 ]

@@ -2,6 +2,31 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+#background{
+    
+    position: fixed;
+    object-fit: fill;
+    min-width: 100vw;
+    min-height: 100vh;
+    
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
     font-family: 'Quicksand', sans-serif;
     font-size: 48px;

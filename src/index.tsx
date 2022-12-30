@@ -4,13 +4,13 @@ import { LinkGrid, LinkGridItem } from "./LinkGrid/LinkGrid";
 const contactLinkGridItems: Array<LinkGridItem> = [
     {
         imageURL: "res/art/twitter.webp",
-        imageAlt: "twitter",
+        imageAlt: "Twitter",
         link: "https://twitter.com/BluebsCat"
     },
     {
-        imageURL: "res/art/email.webp",
-        imageAlt: "Email",
-        link: "mailto:support@fruitbasket.games"
+        imageURL: "res/art/redbubble.webp",
+        imageAlt: "Redbubble",
+        link: "https://www.redbubble.com/people/BluebsTopCat/shop"
     },
     {
         imageURL: "res/art/itch.png",
@@ -41,11 +41,14 @@ const coolPeopleLinkGridItems: Array<LinkGridItem> = [
         link: "https://www.transgame.dev/"
     },
     {
-        imageURL: "res/art/slow_arpeggio.webp",
-        imageAlt: "Slow Arpeggio",
-        link: "https://slowarpeggio.com"
+        imageURL: "res/art/icon.png",
+        imageAlt: "Science Fiction Fantasy Alliance",
+        link: "https://www.reddit.com/r/SFFA/"
     },
+
 ]
+
+
 
 render(<LinkGrid items={contactLinkGridItems} />, document.getElementById("contact-link-grid-root") as Element);
 render(<LinkGrid items={coolPeopleLinkGridItems} />, document.getElementById("cool-people-link-grid-root") as Element);

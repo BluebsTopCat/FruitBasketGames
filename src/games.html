@@ -15,28 +15,32 @@
         
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="games.css">
+        <script src="animbackground.tsx" type="module" defer="defer"></script>
 
     </head>
     <body>
-        <div class="fruitbasket-title">
-            <img class="fruitbasket-title-img" src="res/fruitbasket-cropped.png?as=webp" alt="Fruit Basket Games">
+        <video muted preload id="background">
+            <source src="res/Background2.mp4" type="video/webm">
+          </video>
+          <div class="fruitbasket-title" style="margin-top: 200;">
+            <img class="fruitbasket-title-img" src="res/fruitbasket.png?as=webp" alt="Fruit Basket Games">
             <span>
-                <h1 class="fruitbasket-title-text">Fruit Basket Games</h1>
+                <h1 class="fruitbasket-title-text">Fruit Basket's Games</h1>
             </span>
         </div>
         
         <div class="container" style="margin-top: 32px;">
             <div class="fruitbasket-nav">
-                <a class="button button-red" href="index.html">Home</a>
+                <a class="button button-red" href="/">Home</a>
                 <a class="button button-orange" href="#">Games</a>
-                <a class="button button-green" href="art.html">Art</a>
-                <a class="button button-blue" href="music.html">Music</a>
+                <a class="button button-green" href="art">Art</a>
+                <a class="button button-blue" href="music">Music</a>
             </div>
             
             <div>
                 <div class="game-display-item mm">
                     <a href="https://store.steampowered.com/app/1965840/Mini_Mecum/">
-                        <img alt="Mini Mecum" src="res/games/square.png?as=webp">
+                        <img alt="Mini Mecum" src="res/games/square.png?as=webp" >
                     </a>
                     
                     <div class="game-display-item-description">
@@ -46,6 +50,32 @@
                         <p>Mini Mecum is a game about philosophy and existentialism, with the attempt to be as non-pretentious as possible. Explore hand-crafted environments as you try to figure out what the heck I'm talking about. My first steam game!</p>
                         
                         <a href="https://store.steampowered.com/app/1965840/Mini_Mecum/">Link</a>
+                    </div>
+                </div>
+                <div class="game-display-item vf">
+                    <a href="https://bluebstophat.itch.io/viewfinder">
+                        <img alt="Viewfinder" src="res/games/viewfinder.png?as=webp">
+                    </a>
+                    
+                    <div class="game-display-item-description">
+                        <h3>Viewfinder</h3>
+                        <h4>Windows</h4>
+                        <h4>May 2022</h4>
+                        <p>Viewfinder is a short game experience about going on a hike in the woods, taking some photos, and talking to the people you meet along the way. Made as a resident artist at the UCLA Game Lab!</p>
+                        <a href="https://bluebstophat.itch.io/viewfinder">Link</a>
+                    </div>
+                </div>
+                <div class="game-display-item ld">
+                    <a href="https://bluebstophat.itch.io/loadeddice">
+                        <img alt="Loaded Dice" src="res/games/loaded.png?as=webp">
+                    </a>
+                    
+                    <div class="game-display-item-description">
+                        <h3>Loaded Dice</h3>
+                        <h4>Windows, Mac, Linux, Browser</h4>
+                        <h4>July 2022</h4>
+                        <p>Loaded Dice is my second entry to the Game Maker's Toolkit Game Jam, with the theme of "roll of the dice". The whole game, all the music, and every art asset was made by me in 28 hours.</p>
+                        <a href="https://bluebstophat.itch.io/loadeddice">Link</a>
                     </div>
                 </div>
                 <div class="game-display-item hc">
@@ -77,6 +107,20 @@
                         <a href="https://bluebstophat.itch.io/microvania">Link</a>
                     </div>
                 </div>
+                <div class="game-display-item ur">
+                    <a href="https://bluebstophat.itch.io/uproot">
+                        <img alt="Uproot" src="res/games/Uproot.png?as=webp">
+                    </a>
+                    
+                    <div class="game-display-item-description">
+                        <h3>Uproot</h3>
+                        <h4>Windows, Mac</h4>
+                        <h4>Febuary 2022</h4>
+                        <p>Uproot is a pixel art platformer about growing a beanstalk as high as you can! Made in 2 weeks for the TGD Game Jam.</p>
+                        
+                        <a href="https://bluebstophat.itch.io/uproot">Link</a>
+                    </div>
+                </div>
                 
                 <div class="game-display-item p5w">
                     <a href="https://play.google.com/store/apps/details?id=blueberry.is.cool">
@@ -105,36 +149,6 @@
                         <p>I did a full overhaul of the artwork of Univerra, A tactical Civ-like centered around 30 minute games on your phone.</p>
                         
                         <a href="https://storklabs.io">Link</a>
-                    </div>
-                </div>
-                
-                <div class="game-display-item smg">
-                    <a href="https://bluebstophat.itch.io/untitled-marble-game">
-                        <img alt="Super Marble Game" src="res/games/newlogo.png?as=webp">
-                    </a>
-                    
-                    <div class="game-display-item-description">
-                        <h3>Super Marble Game</h3>
-                        <h4>Windows, Mac</h4>
-                        <h4>May 2021</h4>
-                        <p>Super Marble Game is an in-development fast-paced speedrunning platformer about navigating challenging levels as a ball with a grapple hook.</p>
-                        
-                        <a href="https://bluebstophat.itch.io/untitled-marble-game">Link</a>
-                    </div>
-                </div>
-
-                <div class="game-display-item ur">
-                    <a href="https://bluebstophat.itch.io/uproot">
-                        <img alt="Uproot" src="res/games/Uproot.png?as=webp">
-                    </a>
-                    
-                    <div class="game-display-item-description">
-                        <h3>Uproot</h3>
-                        <h4>Windows, Mac</h4>
-                        <h4>Febuary 2022</h4>
-                        <p>Uproot is a pixel art platformer about growing a beanstalk as high as you can! Made in 2 weeks for the TGD Game Jam.</p>
-                        
-                        <a href="https://bluebstophat.itch.io/uproot">Link</a>
                     </div>
                 </div>
                 
