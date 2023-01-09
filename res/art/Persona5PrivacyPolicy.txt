@@ -1,0 +1,16 @@
+I/We/Me refers to Fruit Basket Games / Fruit Basket Unincorperated.
+
+You refers to the user of this app.
+
+This app / It refers to Persona 5 Widget.
+
+I'm going to pre-empt this privacy policy with the fact that incredibly dense, hard-to-read swaths of text are stupid, so here's the bullet points of everything you need to know:
+
+
+1: This app does request your location in the background, even when not using the app directly. This is to fetch weather data to keep the app up to date.
+
+2: This location data is not stored anywhere, nor is it collected by anyone. It is, however, sent off anonymously to https://wttr.in for the weather data.
+
+3: No other data / personal information is ever requested when using this app.
+
+4: This app is given at your own risk. I'm not responsible for any issues you may have with it, nor am I obligated to keep it updated or functional.
