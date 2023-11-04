@@ -13,56 +13,83 @@
     flex-wrap: nowrap;
     align-items: center;
     justify-content: start;
-    margin: 4px;
-    margin-bottom: 200;
-    padding-right: 5px;
+    margin: 15px;
+    border-radius: 4vmin;
+    border-style: none;
+
+    outline-color: black;
+    outline-style: solid;
+    outline-width: .5vmin;
     
+}
+img{
+    margin-bottom: -5px;
 }
 
 .hc {
+    background-image: url(res/games/hookcat.png?as=webp);
+    background-repeat: no-repeat;
+    background-size: contain;
     background-color: #CCC59F;
-    color: #ffffff;
+    color: var(--main-text-color)
 }
 .mm {
+    background-image: url(res/games/square.png?as=webp);
+    background-repeat: no-repeat;
+    background-size: contain;
     background-color: #1D78DB;
-    color: #ffffff;
+    color: var(--main-text-color)
 }
 .mv {
+    
+    background-image: url(res/games/Microvanialogosquare.png?as=webp);
+    background-repeat: no-repeat;
+    background-size: contain;
     background-color: #010101;
-    color: #ffffff;
-}
+    color: var(--fourth-text-color)
+}   
 .vf {
+    
+    background-image: url(res/games/viewfinder.png?as=webp);
+    background-repeat: no-repeat;
+    background-size: contain;
     background-color: #C0CFF8;
-    color: #12262D;
+    color: var(--main-text-color)
 }
 
 .p5w {
-    padding-left: 5px;
+    background-image: url(res/games/p5widget.png?as=webp);
+    background-repeat: no-repeat;
+    background-size: contain;
     background-color: #ff4747;
-    color: #ffffff;
+    color: var(--main-text-color)
 }
 
 .uv {
-    padding-left: 5px;
-    background-color: #5167AA;
-    color: #ffffff;
+    
+    background-image: url(res/games/univerrasquare.png?as=webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #767fc9;
+    color: var(--main-text-color)
 }
 .ld {
-    padding-left: 5px;
+    
+    background-image: url(res/games/loaded.png?as=webp);
+    background-repeat: no-repeat;
+    background-size: contain;
     background-color: #D0183F;
-    color: #ffffff;
+    color: var(--main-text-color);
 }
 
-
-.smg {
-    padding-left: 5px;
-    background-color: #B740E0;
-    color: #ffffff;
-}
 
 .ur {
+    
+    background-image: url(res/games/uproot.png?as=webp);
+    background-repeat: no-repeat;
+    background-size: contain;
     background-color: #42A7F6;
-    color: #ffffff;
+    color: var(--main-text-color)
 }
 
 .game-display-item img {
@@ -85,7 +112,6 @@
 .game-display-item-description h4 {
     margin: 0;
     padding: 0;
-    
     font-size: 22px;
 }
 
@@ -93,14 +119,16 @@
     margin: 0;
     padding: 0;
     
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .game-display-item-description a {
     margin: 0;
     padding: 0;
     
-    font-size: 18px;
+    font-size: 24px;
+    font-weight: bold;
+    color: purple;
 }
 
 

@@ -10,7 +10,7 @@ function start(){
 
 window.onload = start;
 
-function screenpos(x,y,z) {
+function screenpos(x: number,y: number,z: number) {
     let a = (x / (y-z));
     return (a-.1) * 2;
 }

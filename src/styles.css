@@ -1,10 +1,28 @@
 :root {
     font-family: 'Quicksand', sans-serif;
+    --main-color-1: white;
+    --main-color-2: lightblue;
+
+    --main-text-color: black;
+    --second-text-color: #3f464f;
+    --third-text-color: #7a8da5;
+    --fourth-text-color: #c8dbf5;
+
+    --red: #ff4747;
+    --orange: #ffa161;
+    --green: #93cd93;
+    --blue: #767fc9;
+    --yellow: #EAEA47;
 }
 
 body {
+    background: white;
+    background-repeat: no-repeat;
     margin: 0;
-    padding: 0;
+    height: 100%;
+    background-attachment:initial;
+    
+    font-family: 'Quicksand', sans-serif;
 
 }
 
@@ -29,27 +47,59 @@ html {
 
 h1 {
     font-family: 'Quicksand', sans-serif;
-    font-size: 48px;
+    font-size: 80px;
+    font-weight: normal;
+    color: var(--main-text-color);
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    color: var(--second-text-color);
 }
 
 p {
-    font-size: 22px;
+    font-size: 25px;
 }
 
-
-.button {
+a {
+    text-decoration:wavy;
+}
+.navitem{
     width: 100%;
-    padding: 12px;
-    margin: 4px;
-    
+    margin: 2vmin;
+    color:black;
+
+    font-size: 2.25cqw;
     text-align: center;
-    
-    font-size: 28px;
-    
+    font-weight: 400;
+
+    background-color: white;
+
+    border-radius: 4vmin;
+    border-style: none;
+
+    outline-color: black;
+    outline-style: solid;
+    outline-width: .5vmin;
+
+    font-family: 'Quicksand', sans-serif;
     text-decoration: none;
-    
-    transition: all 0.2s;
-    transition-property: background-color box-shadow;
+    transition: ease-out .1s;
+    transform: translateY(-.5vmin) translateX(-.5vmin);
+    box-shadow: 1vmin 1vmin 0px rgb(0, 0,0);
+}
+
+.navitem:hover{
+    transition: all .05s;
+    transform: translateY(-1vmin) translateX(-1vmin);
+    box-shadow: 2vmin 2vmin 0px rgb(0, 0,0);
+}
+.navitem:active{
+    transition: ease-out 0.025s;
+    transform: translateY(0vmin) translateX(0vmin);
+    box-shadow: 0vmin 0vmin 0px rgb(0, 0,0);
 }
 
 .soundcloud {
@@ -62,41 +112,17 @@ p {
      font-weight: 100;
 }
 
-.button-red {
-    background-color: #ff4747;
-    color: #ffffff;
+.red{
+    background-color: var(--red);
 }
-
-.button-red:hover {
-    background-color: #ff6161;
+.blue{
+    background-color: var(--blue);
 }
-
-.button-blue {
-    background-color: #7A82D1;
-    color: #ffffff;
+.green{
+    background-color: var(--green);
 }
-
-.button-blue:hover {
-    background-color: #5b6197;
-    color: #ffffff;
-}
-
-.button-orange {
-    background-color: #ff8f47;
-    color: #ffffff;
-}
-
-.button-orange:hover {
-    background-color: #ffa161;
-}
-
-.button-green {
-    background-color: #79c379;
-    color: #ffffff;
-}
-
-.button-green:hover {
-    background-color: #93cd93;
+.orange{
+    background-color: var(--orange);
 }
 
 
@@ -106,7 +132,6 @@ p {
 }
 
 .fruitbasket-title {
-    margin-top: 32px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -131,11 +156,23 @@ p {
 }
 
 .spacer-bottom {
-    height: 12.5vw;
+    height: 1vw;
 }
 
 @media only screen and (max-width: 768px) {
     .container {
         max-width: 90vw;
     }
+}
+
+ul{
+    display: table; 
+    margin: 0 auto;
+    text-align: left;
+    padding: 0;
+}
+
+.imgbutton{
+    width: 10vmin;
+    height: 10vmin;
 }

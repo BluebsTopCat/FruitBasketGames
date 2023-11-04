@@ -1,11 +1,18 @@
 
 .fruitbasket-block {
-    margin: 4px;
-    padding: 12px;
+    margin: 15px;
+    padding: 20px;
+
+    border-radius: 4vmin;
+    border-style: none;
+
+    outline-color: black;
+    outline-style: solid;
+    outline-width: .5vmin;
 }
 
 .fruitbasket-block h2 {
-    color: #ffffff;
+    color: var(--main-text-color);
     
     margin: 0px;
     margin-bottom: 8px;
@@ -14,7 +21,7 @@
     
     font-size: 28px;
     
-    font-weight: 400;
+    font-weight: bold;
 }
 
 .fruitbasket-block p {
@@ -27,17 +34,6 @@
     font-weight: 400;
 }
 
-.block-blue {
-    background-color: #7a82d1;
-}
-
-.block-green {
-    background-color: #79c379;
-}
-
-.block-red {
-    background-color: #ff4646;
-}
 
 .fruitbasket-lower {
     display: flex;
@@ -120,3 +116,4 @@
         flex-direction: column;
     }
 }
+

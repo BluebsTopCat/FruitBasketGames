@@ -11,37 +11,31 @@
         
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Quicksand:wght@400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Quicksand:wght@300;400;700&display=swap" rel="stylesheet">
         
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="index.css">
         
-        <script src="index.tsx" type="module" defer="defer"></script>
-        <script src="animbackground.tsx" type="module" defer="defer"></script>
+        <script src="taglines.tsx" type="module" defer="defer"></script>
     </head>
     <body>
-        <video muted preload id="background">
-            <source src="res/Background.mp4" type="video/webm">
-          </video>
-          
-        <div class="fruitbasket-title" style="margin-top: 200;">
-            <img class="fruitbasket-title-img" src="res/fruitbasket.png?as=webp" alt="Fruit Basket Games">
-            <span style = "margin-bottom: 2500;">
+        <video id="background" autoplay muted ><source src="res/Bwoomf2.webm" type="video/mp4"></video>
+        <div class="fruitbasket-title">
+            <video class = "fruitbasket-title-img"  src="res/logo_anim.webm" type="video/webm" autoplay = "autoplay" alt="Fruit Basket Games"></video>
                 <h1 class="fruitbasket-title-text" style="text-align: center;">Fruit Basket Games</h1>
-                <h2 id="tagline" style="text-align: center;"></h2>
-            </span>
+                <h2 id="tagline" style="text-align: center; margin-top: -12px;"></h2>
        
         </div>
        
         <div class="container" style="margin-top: 32px;">
             <div class="fruitbasket-nav" >
-                <a class="button button-red" href="#">Home</a>
-                <a class="button button-orange" href="games">Games</a>
-                <a class="button button-green" href="art">Art</a>
-                <a class="button button-blue" href="music">Music</a>
+                <a class="navitem red" href="#">Home</a>
+                <a class="navitem blue" href="games">Games</a>
+                <a class="navitem green" href="art">Art</a>
+                <a class="navitem orange" href="music">Music</a>
             </div>
             
-            <div class="fruitbasket-block block-blue">
+            <div class="fruitbasket-block blue">
                 <h2>About</h2>
                 
                 <p>
@@ -60,17 +54,26 @@
             </div>
             
             <div class="fruitbasket-lower">
-                <div class="fruitbasket-block block-green contact">
-                    <h2>Links to my stuff!</h2>
+                <div class="fruitbasket-block green contact">
+                       <h2 style="display: inline-block;">Links To My Stuff!</h2>
                     
-                    <span id="contact-link-grid-root"></span>
+                    <ul>
+                        <button class = "navitem imgbutton" type="button" onclick= "location.href='https://bluebstophat.itch.io/'" style="background-image: url(res/art/itch.png);  background-size: cover;"></button> 
+                        <button class = "navitem imgbutton" type="button" onclick= "location.href='https://www.instagram.com/bluebstopcat/'" style="background-image: url(res/art/instagram.webp);  background-size: cover;"></button> 
+                        <button class = "navitem imgbutton" type="button" onclick= "location.href='https://discord.gg/SVT57Zb'" style="background-image: url(res/art/discord.png);  background-size: cover;"></button> 
+                        <button class = "navitem imgbutton" type="button" onclick= "location.href='mailto:support@fruitbasket.games'" style="background-image: url(res/art/email.webp);  background-size: cover;"></button> 
+                    </ul>
                     
                 </div>
                 
-                <div class="fruitbasket-block block-red cool-people">
-                    <h2>Cool People!</h2>
-                    
-                    <span id="cool-people-link-grid-root"></span>
+                <div class="fruitbasket-block red cool-people">
+                        <h2 style="display: inline-block;">Cool People!</h2>
+                    <ul>
+                        <button class = "navitem imgbutton" type="button" onclick= "location.href='https://bluebstophat.itch.io/'" style="background-image: url(res/art/itch.png);  background-size: cover;"></button> 
+                        <button class = "navitem imgbutton" type="button" onclick= "location.href='https://www.instagram.com/bluebstopcat/'" style="background-image: url(res/art/instagram.webp);  background-size: cover;"></button> 
+                        <button class = "navitem imgbutton" type="button" onclick= "location.href='https://discord.gg/SVT57Zb'" style="background-image: url(res/art/discord.png);  background-size: cover;"></button> 
+                        <button class = "navitem imgbutton" type="button" onclick= "location.href='mailto:support@fruitbasket.games'" style="background-image: url(res/art/email.webp);  background-size: cover;"></button> 
+                    </ul>
                     
                 </div>
                 

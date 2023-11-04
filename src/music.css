@@ -1,0 +1,9 @@
+.soundcloud{
+    border-radius: 4vmin;
+    border-style: none;
+
+    outline-color: black;
+    outline-style: solid;
+    outline-width: .5vmin;
+    background-color: white;
+}
