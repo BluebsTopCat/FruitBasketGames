@@ -1,3 +1,5 @@
+Persona 5 App Widget Privacy Policy:
+
 I/We/Me refers to Fruit Basket Games / Fruit Basket Unincorperated.
 
 You refers to the user of this app.
@@ -14,3 +16,5 @@ I'm going to pre-empt this privacy policy with the fact that incredibly dense, h
 3: No other data / personal information is ever requested when using this app.
 
 4: This app is given at your own risk. I'm not responsible for any issues you may have with it, nor am I obligated to keep it updated or functional.
+
+For questions and concerns, please email support@fruitbasket.games
