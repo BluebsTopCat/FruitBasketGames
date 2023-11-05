@@ -23,7 +23,7 @@ export const items: Array<ArtGridItem> = [
         type: ItemType.Image,
         title: "Lillian Keyton",
         description: "<b>3d Digital Media</b>\nApril 2023\n<i>Independent Work</i>\n\nFanart of Lillian Keyton, from the webcomic 'Soulwinder'. Made in Blender",
-        url: "res/art/Soulwinder.webp"
+        url: "res/art/soulwinder.webp"
     },
     {
         type: ItemType.Image,
@@ -35,25 +35,25 @@ export const items: Array<ArtGridItem> = [
         type: ItemType.Image,
         title: "BC Tourism Poster",
         description: "<b>3d Digital Media</b>\nDecember 2022\n<i>Independent Work</i>\n\nA fake advertisement for the woods of BC. Made in Blender",
-        url: "res/art/TourismPosterBc.webp"
+        url: "res/art/tourismposterbc.webp"
     },
     {
         type: ItemType.Video,
         title: "Forgotten Church",
         description: "<b>3d Digital Media</b>\nJanuary 2023\n<i>Independent Work</i>\n\nA shattered point in space- a eulogy to the forgotton. Made in Blender",
-        url: "res/art/TheStars.webm"
+        url: "res/art/thestars.webm"
     },
     {
         type: ItemType.Image,
         title: "City Skyline",
         description: "<b>3d Digital Media</b>\nJune 2023\n<i>Independent Work</i>\n\nA city that never sleeps. Made in Blender",
-        url: "res/art/Skiview.webp"
+        url: "res/art/skiview.webp"
     },
     {
         type: ItemType.Video,
         title: "Silver Fanart",
         description: "<b>3d Digital Media</b>\nJuly 2023\n<i>Independent Work</i>\n\nFanart of Silver, from the 2d RPG Oneshot. Made in Blender",
-        url: "res/art/Silver3d.webm"
+        url: "res/art/silver3d.webm"
     },
     {
         type: ItemType.Video,
@@ -65,43 +65,43 @@ export const items: Array<ArtGridItem> = [
         type: ItemType.Video,
         title: "Lupe",
         description: "<b>3d Digital Media</b>\nOctober 2022\n<i>Independent Work</i>\n\nA 3d model of Lupe from the webcomic Four Leaf!",
-        url: "res/art/LupeFourLeaf.webm"
+        url: "res/art/lupefourleaf.webm"
     },
     {
         type: ItemType.Video,
         title: "The Sky.",
         description: "<b>3d Digital Media</b>\nFebuary 2023\n<i>Independent Work</i>\n\nNobody has seen the stars in a hundred years. Made in Blender",
-        url: "res/art/TheSky.webm"
+        url: "res/art/thesky.webm"
     },
     {
         type: ItemType.Video,
         title: "Freefalling",
         description: "<b>3d Digital Media</b>\nSeptember 2022\n<i>Independent Work</i>\n\nFalling from the skyline. Made in Blender",
-        url: "res/art/Falling.webm"
+        url: "res/art/falling.webm"
     },
     {
         type: ItemType.Image,
         title: "Mage",
         description: "<b>3d Digital Media</b>\nAugust 2022\n<i>Independent Work</i>\n\nA mysterious alchemist hones her craft. Made in Blender",
-        url: "res/art/Render4.webp"
+        url: "res/art/render4.webp"
     },
     {
         type: ItemType.Video,
         title: "Fight Scene",
         description: "<b>3d Digital Media</b>\nJune 2023\n<i>Independent Work</i>\n\nPracticing animation and 2d effects with a fight scene! Made in Blender",
-        url: "res/art/FightScene.webm"
+        url: "res/art/fightscene.webm"
     },
     {
         type: ItemType.Image,
         title: "Matsterna",
         description: "<b>3d Digital Media</b>\nJuly 2023\n<i>Independent Work</i>\n\nThe Creator of the cosmos. Made in Blender",
-        url: "res/art/Matsterna.webp"
+        url: "res/art/matsterna.webp"
     },
     {
         type: ItemType.Video,
         title: "Research In Progress",
         description: "<b>3d Digital Media</b>\nDecember 2021\n<i>Fruit Basket Games</i>\n\nRESEARCH 9.67% COMPLETE...",
-        url: "res/art/Research.webm"
+        url: "res/art/research.webm"
     },
     {
         type: ItemType.Image,
