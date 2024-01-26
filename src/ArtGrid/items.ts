@@ -21,15 +21,39 @@ export const items: Array<ArtGridItem> = [
     },
     {
         type: ItemType.Image,
+        title: "Office Concept Art",
+        description: "<b>3d Digital Media</b>\nDecember 2023\n<i>Independent Work</i>\n\nA potential design for an office complex abandoned in the 60's. Made in Blender",
+        url: "res/art/officetest.png"
+    },
+    {
+        type: ItemType.Image,
         title: "Lillian Keyton",
         description: "<b>3d Digital Media</b>\nApril 2023\n<i>Independent Work</i>\n\nFanart of Lillian Keyton, from the webcomic 'Soulwinder'. Made in Blender",
         url: "res/art/soulwinder.webp"
     },
     {
         type: ItemType.Image,
+        title: "Hollow Knight Cosplay",
+        description: "<b>Physical Costume</b>\nOctober 2023\n<i>Independent Work</i>\n\nA costume of the Hollow Knight from 'Hollow Knight'- the mask is 3d printed with LEDS run through the eyes, the nail is foam sliced and stacked around a dowel rod, and the cloak is a curtain resewn into strands.",
+        url: "res/art/theKnight.jpg"
+    },
+    {
+        type: ItemType.Image,
         title: "Replacement",
         description: "<b>3d Digital Media</b>\nSeptember 2023\n<i>Independent Work</i>\n\nA fake advertisement for prosthetic upgrades. Made in Blender",
         url: "res/art/molddroid.webp"
+    },
+    {
+        type: ItemType.Image,
+        title: "Tourim Posters",
+        description: "<b>3d Digital Media</b>\nDecember 2023\n<i>Independent Work</i>\n\nA series of fake tourism posters for locations in Canada. Made in Blender",
+        url: "res/art/merge.png"
+    },
+    {
+        type: ItemType.Video,
+        title: "Mallory",
+        description: "<b>3d Digital Media</b>\nAugust 2023\n<i>Independent Work</i>\n\nFan art of Mallory, from the webcomic 'The Beast of Hadingley Hill'. Made in Blender",
+        url: "res/art/hadingleyturn2.mp4"
     },
     {
         type: ItemType.Image,
@@ -98,18 +122,6 @@ export const items: Array<ArtGridItem> = [
         url: "res/art/matsterna.webp"
     },
     {
-        type: ItemType.Video,
-        title: "Research In Progress",
-        description: "<b>3d Digital Media</b>\nDecember 2021\n<i>Fruit Basket Games</i>\n\nRESEARCH 9.67% COMPLETE...",
-        url: "res/art/research.webm"
-    },
-    {
-        type: ItemType.Image,
-        title: "Science Fiction Fantasy Alliance",
-        description: "<b>2d Digital Media</b>\nApril 2022\n<i>SFFA</i>\n\n I designed and organized a group of members of reddit to place this design on https://reddit.com/r/place, an art experiment in which each user could place one pixel on a grid every 5 minutes. our work turned out to be one of the largest there was!",
-        url: "res/art/icon.webp"
-    },
-    {
         type: ItemType.Image,
         title: "Basic Lands",
         description: "<b>2d Digital Media</b>\nJune 2022\n<i>Independent Work</i>\n\nA set of custom cards designed to function in the card game 'Magic the Gathering'",
@@ -132,18 +144,5 @@ export const items: Array<ArtGridItem> = [
         title: "So long, Geffen.",
         description: "<b>2d Digital Media</b>\nJune 2022\n<i>Independent Work</i>\n\n My graduation cap for school.",
         url: "res/art/schoolcap.webp"
-    },
-    {
-        type: ItemType.Image,
-        title: "Propaganda Poster",
-        description: "<b>2d Digital Media</b>\nJanuary 2022\n<i>Independent Work</i>\n\nMade as a joke, this poster was put up to parody election denial by comparing it to a student council election. The poster replicates cold-war fear designs with a stark red white black design.",
-        url: "res/art/propaganda.webp"
-    },
-    {
-        type: ItemType.Image,
-        title: "Assorted Ghouls",
-        description: "<b>3d Digital Media</b>\nSeptember 2021\n<i>Transcendent Games</i>\n\nAssorted ghosts and ghouls that roam the halls of a haunted mansion.",
-        url: "res/art/theghostsarebackintown.webp"
     }
-  
 ]
