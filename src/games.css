@@ -33,6 +33,13 @@ img{
     background-color: #CCC59F;
     color: var(--main-text-color)
 }
+.de {
+    background-image: url(res/games/DE.jpg?as=webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #94EAFD;
+    color: var(--main-text-color)
+}
 .mm {
     background-image: url(res/games/square.png?as=webp);
     background-repeat: no-repeat;
@@ -93,14 +100,14 @@ img{
 }
 
 .game-display-item img {
-    width: 256px;
-    height: 256px;
+    width: 20%;
+    height: 20%;
 }
 
 .game-display-item-description {
-    display: block;
+    display: inline-block;
     text-align: left;
-    margin-left: 24px;
+    margin-left: 24vw;
 }
 
 .game-display-item-description h3 {
