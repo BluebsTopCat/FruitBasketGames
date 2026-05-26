@@ -1,0 +1,105 @@
+<!DOCTYPE html><html lang=en-us><meta charset=UTF-8><meta name=description content="Sweet Game Development."><meta name=viewport content="width=device-width, initial-scale=1"><meta name=theme-color content=#79c379><title>Fruit Basket Games</title><link rel=icon href=/fruitbasket.f8c715ac.webp><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&amp;family=Quicksand:wght@300;400;700&amp;display=swap" rel=stylesheet><link rel=stylesheet href=/Website.c232c2b4.css><link rel=stylesheet href=/mecum.e4330a16.css><script src=/Website.3c674a26.js type=module defer></script><body>
+        
+       
+        <div class=container style=align-items:center;width:50%;margin-top:32px>
+            <div class=fruitbasket-nav>
+                <a class="navitem red" href=devlogs>Back</a>
+            </div>
+        
+        <img style=width:100% src=/mecumlogo.237a1b14.png>
+        <p><i>Mini Mecum</i> is the largest of the projects I’ve solo created, a 2022 adventure game about philosophy and absurdism.
+             It released on Steam to positive reviews, and has since sold roughly six hundred copies. </p>
+
+        <iframe width=100% height=400vw src="https://www.youtube.com/embed/sOIDSwps2Bo?si=uPgOujfN5-6vsm_S"></iframe>
+
+        <p>I’ve since updated it more, to improve the graphical fidelity and patch a lot of bugs, and it's gotten to a relatively stable place.
+             I made it in my free time as a high-schooler, and I reached far. I’m still phenomenally proud of what I did on it, 
+             but were I to redo it from scratch, I’d make a lot of changes. That's a good thing, though. It means I've gotten better at what I do.
+            <br> <br> Anyways, here's the best of the project!</p>
+        
+        <h2>Visuals</h2>
+        <p>I started this project with the aim of an intentionally low-budget style. Every character is a stick figure, 
+            and most colours in the game are flat shades or simple gradients. Altogether, it gives the game a visual charm
+             that seperates it from other low-budget Unity games.</p>
+        <br>
+        <img style=width:100% src=/mecum1.b23af31a.jpg>
+         <br>
+        <img style=width:100% src=/mecum2.5352a1ac.png>
+         <br>
+        <img style=width:100% src=/mecum3.d6e60c07.png>
+         <br>
+        <video style=width:100% controls><source src=/mecum4.aa0a95d9.mp4 type=video/mp4> </video>
+             <br>
+
+        <h2>Music and Ambience</h2>
+
+        <p>The music I made for <i>Mini Mecum</i> is always eclectic, sometimes ambient, and has a few interesting properties.
+            Namely, most tracks in the game consist of stacks of different songs that cycle and replace each other throughout an area.</p>
+        <p>The game uses a custom “transition zone” system in which custom objects are placed to designate and smoothly interpolate
+             between different sound and music profiles. They trigger as a player moves through them, and define the ambience of the area.</p>
+
+        <img style=width:100% src=/mecum5.09590182.png>
+         <br>
+        <p>Here’s an example of the system in action!</p>
+        <br>
+         <video style=width:100% controls><source src=/mecum6.df1f0941.mp4 type=video/mp4> </video>
+             <br>
+        <p> And here are some specific tracks from the game!</p>
+        
+<br>
+        <div>
+            <p>Broken Walls</p>
+            <audio controls style=width:100%>
+            <source src=/mecumtrack1.5ed0790d.mp3 type=audio/mpeg>
+            Your browser does not support the audio element.
+            </audio>
+        </div>
+          <br>
+        <div>
+            <p>The Airship</p>
+            <audio controls style=width:100%>
+            <source src=/mecumtrack2.14a27235.mp3 type=audio/mpeg>
+            Your browser does not support the audio element.
+            </audio>
+        </div>
+          <br>
+        <div>
+            <p>Industrial Grade Soulless Corporate Music</p>
+            <audio controls style=width:100%>
+            <source src=/mecumtrack3.98b0830e.mp3 type=audio/mpeg>
+            Your browser does not support the audio element.
+            </audio>
+        </div>
+                 <br>
+        <div>
+            <p>Hidden in the Seas</p>
+            <audio controls style=width:100%>
+            <source src=/mecumtrack4.14f0235e.mp3 type=audio/mpeg>
+            Your browser does not support the audio element.
+            </audio>
+        </div>
+
+    <h2>Mechanics</h2>
+        <p>There are a few mechanical implementations in the project that I’m still rather proud of– specifically, 
+        seamless portals, and gravity-defining walls.</p>
+        <p>Gravity-walls are pretty straightforward. Since I always want this game to have gravity, 
+            down is whatever direction the player is rotated– they’ll always fall below themselves, 
+            and so all walls have to do is rotate the player to face the normal of the mesh they’re walking on.</p>
+
+          <img style=width:100% src=/mecum7.c92905ab.png>
+          <p>From there, I lerp the player’s rotation to the floors using quaternion math, and smooth it slightly to prevent sharp jitters.<br><br>
+            
+            Portal math is a bit more complicated, though. <br><br>
+            
+            I’m using Sebastion Lague’s portal method and style, but because of the physics-first character controller,
+            I had to change the way that velocities are calculated and translated– making sure that momentum carried through.</p>
+         <br>
+        <video style=width:100% controls><source src=/mecum8.57253368.mp4 type=video/mp4> </video>
+             <br>
+
+        <p>The end result is flawed, with a single visible frame on translation between portals, but I think the effect is impressive enough anyways. 
+            In the future, I could fix this by putting portal math in a pre-render update loop, but that method doesn’t work well with unity’s URP.</p>
+         </div>
+         
+        <div class=spacer-bottom></div>
+    

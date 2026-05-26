@@ -1,0 +1,1 @@
+{"mappings":"ACAA,2BAGA","sources":["mecum.e4330a16.css","src/mecum.css"],"sourcesContent":["body {\n  background-color: #fff;\n}\n\n.container {\n  max-width: 40vw;\n}\n/*# sourceMappingURL=mecum.e4330a16.css.map */\n","body{\r\n    background-color:white;\r\n}\r\n.container{\r\n    \r\n    max-width: 40vw;\r\n}\r\n"],"names":[],"version":3,"file":"mecum.e4330a16.css.map"}
